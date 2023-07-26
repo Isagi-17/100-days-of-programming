@@ -1,0 +1,5 @@
+# d-10 janmansh and coins
+t=int(input())
+for i in range (0,t):
+    x,y=map(int,input().split())
+    print((x*10)+(y*5))
